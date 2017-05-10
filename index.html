@@ -149,7 +149,7 @@ a {
             w += subMenu.children("li").eq(i).outerWidth();
             if (w > outerWidth) {
                 var a = 0;
-                while (a < i) {
+                while (a <= i) {
                     subMenu.children("li").eq(a)
                         .css('opacity', 0)
                         .detach()
